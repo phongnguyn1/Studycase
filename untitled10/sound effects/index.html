@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duoi hinhbat chu</title>
+    <link rel="stylesheet" href="../css.css">
+
+</head>
+<body>
+<!--<style>-->
+<!--    body {-->
+<!--        font-family: Arial, sans-serif;-->
+<!--        text-align: center;-->
+<!--        background-color: pink;-->
+<!--        color: black;-->
+<!--        margin: 0;-->
+<!--    }-->
+
+<!--    #start {-->
+<!--        font-size: 16px;-->
+<!--        padding: 10px;-->
+<!--        margin: 20px;-->
+<!--        background-color: black;-->
+<!--        color: pink;-->
+<!--        border: none;-->
+<!--        cursor: pointer;-->
+<!--    }-->
+
+<!--    table {-->
+<!--        margin: 20px auto;-->
+<!--        background-color: pink;-->
+<!--    }-->
+
+<!--    h1 {-->
+<!--        margin-bottom: 10px;-->
+<!--        color: black;-->
+<!--    }-->
+
+<!--    button {-->
+<!--        font-size: 14px;-->
+<!--        padding: 8px;-->
+<!--        width: 100px;-->
+<!--        cursor: pointer;-->
+<!--        background-color: black;-->
+<!--        color: pink;-->
+<!--        border: none;-->
+<!--    }-->
+<!--</style>-->
+
+<!--<button id="start" onclick="start()"> Đuổi hình bắt chữ </button> <br>-->
+<h2 class="start"> Ai thông minh hơn học sinh lớp 5 ?  </h2>
+<label for="playerName">Người chơi:</label>
+<input type="text" id="playerName" placeholder="Nhập tên"> <br>
+<img id="image" src="compman.gif" width="300" height="200">
+
+
+<!--<table>-->
+<!--    <tr>-->
+        <h1 id="question" class="question"> Cau hoi </h1>
+<div id="score">Score: 0</div>
+<div id="highScore">High Score: 0</div>
+
+<!--    </tr>-->
+<!--    <tr>-->
+        <span> <button id="answer1" onclick="answer(this.id)">A: </button>
+         <button id="answer2" onclick="answer(this.id)">B: </button>
+            <button id="answer3" onclick="answer(this.id)">C: </button>
+         <button id="answer4" onclick="answer(this.id)">D: </button></span>
+<!--    </tr>-->
+<!--    <tr>-->
+
+<!--    </tr>-->
+    
+<!--</table>-->
+<audio id="correctSound" src="correct.mp3"></audio>
+<audio id="incorrectSound" src="incorrect.mp3"></audio>
+
+<script src="../js/demo2.js"> </script>
+
+
+</body>
+</html>
